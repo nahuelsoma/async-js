@@ -1,0 +1,33 @@
+{
+  "name": "cursoasincronismojavascript",
+  "version": "1.0.0",
+  "description": "Asincronismo en JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js",
+    "promise.challenge": "node src/promise/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NASC12/cursoAsincronismoJavaScript.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async",
+    "await"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NASC12/cursoAsincronismoJavaScript/issues"
+  },
+  "homepage": "https://github.com/NASC12/cursoAsincronismoJavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
